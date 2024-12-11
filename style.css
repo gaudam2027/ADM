@@ -1,0 +1,232 @@
+
+/* ---------------------------------------------------for nav-bar and section-1----------------------------------------------------------- */
+
+/* for common */
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+   background-color: #000;
+}
+
+.navbar .container-fluid{
+    padding: 26px 36.24px;
+}
+
+.navbar .navbar-brand{
+    padding: 0px 56px 0px 16px;
+}
+
+.navbar img{
+    height: 34px;
+    width: 110px;
+}
+
+.navbar .container-fluid .nav-item{
+    font-size: 16px;
+    color: white;
+}
+
+.navbar .container-fluid a{
+    font-size: 16px;
+}
+
+.carousel-caption {
+    text-align: start;
+    width: 41%;
+}
+
+.carsousel1 h1{
+    font-size: 42px;
+}
+
+.carsousel1 p{
+    font-size: 19px;
+}
+
+.carsousel1 .learn_more{
+    background: linear-gradient(79.54deg,rgba(73,73,73,.4) 16.78%,
+    rgba(77,77,77,.5) 46.33%,
+    hsla(0,0%,40%,.5) 73.76%,
+    hsla(0,0%,50%,.5) 94.21%);
+    padding: 16px 34px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    box-shadow: -1px 1px 0 #000,inset -1px 1px 0 hsla(0,0%,52%,.62);
+    width: 157px;
+}
+
+
+/* for laptop screen */
+
+@media (max-width: 1200px) {
+    .navbar .container-fluid{
+        padding: 26px;
+    }
+
+    .navbar .navbar-brand{
+        padding: 0px 0px 0px 16px;
+    }
+
+    .navbar .navbar-brand img{
+        max-width: 90px;
+        height: 34px;
+    }
+
+    .carsousel1 h1{
+        font-size: 42px;
+    }
+
+    
+
+}
+
+/* for tablet screen */
+
+@media (max-width: 991px) {
+    .carsousel1 h1{
+        font-size: 36px;
+    }
+
+    .carsousel1 p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-caption{
+        width: 93%;
+    }
+
+    .section-3 .carousel-caption{
+        width: 40%;
+    }
+    
+    .section-3 .carousel-caption h5{
+        font-size: 15px;
+    }
+    
+    .section-3 .carousel-caption p{
+        font-size: 10px;
+    }
+    
+    
+
+    .carousel-indicators span{
+        display: none;
+    }
+}
+
+/* for mobile screen */
+
+@media (max-width: 521px) {
+    .navbar .container-fluid{
+        padding: 10px;
+    }
+
+    .navbar .navbar-brand{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .navbar .navbar-brand img{
+        max-width: 84px;
+        height: 34px;
+    }
+
+    .section-3 .carousel-indicators{
+        margin-bottom: 0px;
+    }
+
+    .carsousel1 h1{
+        font-size: 35px;
+    }
+
+    .section-3 .carousel-caption{
+        width: 89%;
+        height: 94%;
+    }
+
+}
+
+/* for small mobile screen */
+
+@media (max-width: 320px) {
+    .navbar .container-fluid{
+        padding: 10px;
+    }
+
+    .navbar .navbar-brand{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .navbar .navbar-brand img{
+        max-width: 84px;
+        height: 34px;
+    }
+
+
+}
+
+/* -------------------------------------------------------------------------section_2------------------------------------------------------ */
+.section-2-outer{
+    background-image: url(image/section-2-cover.avif);
+    background-position: center;
+}
+
+.section-2-left h1{
+    color: white;
+    font-size:3rem;
+}
+
+.img_2nd{
+    width: 254px;
+    height: 143px;
+}
+
+.section-2-left p{
+    color: white;
+    font-size: clamp(1.08rem, .973rem + .297vw, 1.27rem);
+}
+
+
+.section-2 .cards{
+    padding: 3px;
+}
+
+.section-2 .section-2-left button{
+    background: linear-gradient(79.54deg,rgba(73,73,73,.4) 16.78%,
+    rgba(77,77,77,.5) 46.33%,
+    hsla(0,0%,40%,.5) 73.76%,
+    hsla(0,0%,50%,.5) 94.21%);
+    color: white;
+}
+
+.section-2{
+    color: white;
+}
+
+.inner-mobile-cards{
+    width: 40%;
+    padding: 0px;
+    
+}
+.mobile-card h5, .mobile-card{
+    color: white;
+}
+
+/* -------------------------------------------------------------------------footer------------------------------------------------------ */
+
+footer{
+    background-color: #000;
+}
+
+footer button{
+    background:linear-gradient(79.54deg,rgba(73,73,73,.4) 16.78%,
+    rgba(77,77,77,.5) 46.33%,
+    hsla(0,0%,40%,.5) 73.76%,
+    hsla(0,0%,50%,.5) 94.21%);
+    color: rgb(246, 243, 243);
+}
